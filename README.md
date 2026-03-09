@@ -20,6 +20,8 @@ Pin Configuration of 555 Timer:
 •	Pin 6 → Threshold
 •	Pin 7 → Discharge
 •	Pin 8 → Vcc
+<img width="869" height="620" alt="circuit 5" src="https://github.com/user-attachments/assets/3b7fc30f-f42c-458a-8cb3-f6522f54c435" />
+
 ## Connections:
 •	R1 → Between Vcc and Pin 7
 •	R2 → Between Pin 7 and Pins 2 & 6
@@ -37,10 +39,13 @@ Pin Configuration of 555 Timer:
 6.	Observe square wave output at Pin 3.
 7.	Measure time period and frequency.
 ## Tabulation
-S.No	        R1 (kΩ)	      R2 (kΩ)	       C (µF)	        Theoretical Frequency	          Practical Frequency
+<img width="774" height="300" alt="tabu 5" src="https://github.com/user-attachments/assets/ca29593a-5d4b-453c-afa7-a2984e8a6208" />
+
 ## Waveforms
 •	Output (Pin 3) → Square wave
 •	Capacitor voltage → Exponential charging & discharging waveform
+<img width="1380" height="870" alt="wave 5" src="https://github.com/user-attachments/assets/d093a252-d064-40db-bd01-1ec3ffd63c4d" />
+
 ## Result
 The Astable Multivibrator using NE555 Timer IC was successfully designed and simulated in Proteus.
 A continuous square wave output was obtained.
@@ -51,8 +56,13 @@ The practical frequency closely matches the theoretical frequency.
 •	Increasing R or C decreases frequency.
 •	Used in clock generation, LED flashing, and tone generation.
 ## Viva Questions
-1.	What are the operating modes of 555 timer?
-2.	What are the threshold levels in astable mode?
-3.	Write the frequency formula.
-4.	What is duty cycle?
-5.	What happens if R2 increases?
+1.	What are the operating modes of 555 timer?<br>
+Astable, Monostable, and Bistable modes.<br>
+2.What are the threshold levels in astable mode?<br>
+1/3 Vcc and 2/3 Vcc.<br>
+3.Write the frequency formula.<br>
+f=(R1 +2R2 )C1.44<br>
+4.What is duty cycle?<br>
+Ratio of ON time to total time period.<br>
+5.What happens if R2 increases?<br>
+Ratio of ON time to total time period.
